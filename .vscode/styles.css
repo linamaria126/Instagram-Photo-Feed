@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(232, 224, 224);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-color:white;
+    padding: 8px;
+    margin-bottom: 35px;
+    
+}
+
+header h1{
+    text-align: center;
+}
+
+
+.box_feed{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 80px;
+    
+}
+
+.box_title{
+    display: inline-block;
+
+}
+
+.box_title h2{
+    width: 50%;
+    float: left;
+    padding: 5px;
+    
+}
+
+.box_title span{
+    position: absolute;
+    margin: 0;
+    padding-top: 25px;
+    width: 18%;
+    float: right;
+    color: gray;
+    right: 270px;
+    
+}
+
+
+.box_img{
+    margin: auto;
+    
+}
+
+.box_img img{
+    width: 700px;
+}
+
+.box_descrip{
+    padding: 10px;
+}
